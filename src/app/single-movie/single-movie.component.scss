@@ -1,0 +1,44 @@
+.card {
+  width: 140px;
+  background-color: white;
+  background-position: top left;
+  background-attachment: fixed;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 200px;
+  max-width: 300px;
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  position: relative;
+  z-index: 1000;
+
+  
+    // height: 80%;
+    img:not(.img__topper) {
+      width: 90%;
+      aspect-ratio: 1/1;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+    img.img__topper {
+      width: 30%;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      top: -17%;
+    }
+  .movie__title {
+    text-align: center;
+    font-size: 18pt;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .movie__data {
+    color: red;
+  }
+}

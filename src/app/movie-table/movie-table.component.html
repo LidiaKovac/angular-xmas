@@ -1,0 +1,9 @@
+<div class="movie-table__wrap">
+  <div class="row" *ngFor="let row of movies">
+
+    <app-single-movie [id]="movie.imdbID"
+    *ngFor="let movie of row"
+    [movie]="movie"
+    ></app-single-movie>
+  </div>
+</div>

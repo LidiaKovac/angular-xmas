@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  margin: 0px;
+  background-color: rgb(162, 228, 187);
+  background-size: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-y: hidden;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  margin: 0px;
+  text-transform: uppercase;
+  background-color: #E000FF;
+  z-index: 1001;
+  width: 20%;
+  line-height: 100%;
+  text-align: center;
+  text-shadow: white 1px 1px;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6,
+.movie__title {
+  font-family: "Mountains of Christmas", cursive;
+}
+
+
+
+.row {
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+  &:nth-of-type(even) {
+    // &::before {
+    //   content: "";
+    //   width:calc(100% + 120px);
+    //   height:100%;
+    //   background-image: url('./assets/gradient.png');
+    //   background-attachment: fixed;
+    //   background-size: contain;
+    //   background-position: top;
+    //   position: absolute;
+    //   left: -60px;
+    //   top: -20px;
+    //   transform: perspective(2.5px) rotateX(0.5deg);
+    //   z-index: 1;
+    // }
+    
+    // .img__topper {
+    //   display: none;
+    // }
+  }
+  // &:nth-of-type(odd) {
+  //   &::before {
+  //     content: "";
+  //     width:calc(100% + 120px);
+  //     height:100%;
+  //     background-color: green;
+  //     position: absolute;
+  //     left: -60px;
+  //     top: -20px;
+  //     transform: perspective(2.5px) rotateX(0.5deg);
+  //     z-index: 0;
+  //   }
+    
+    
+  // }
+}
